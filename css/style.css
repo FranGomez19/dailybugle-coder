@@ -1,0 +1,224 @@
+/******************INDEX.HTML*****************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+header a h1 img{
+    height: 80px;
+    padding: 5px 0px 5px 20px;
+    
+    
+}
+/*MAIN*/
+.index{
+    padding: 10px 10px 10px 10px;
+}
+.index h2{
+    
+    font-size: 50px;
+    padding: 10px 0px 10px 0px;;
+    
+}
+main{
+    background-color: #EBE9E9;
+    
+}
+.noticias{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px 0px 100px;
+}
+.noticias article{
+    border: 3px solid grey;
+    text-align: justify;
+    display: flex;
+}
+.noticias iframe{
+    width: 200%;
+    height: 60vh;
+}
+.noticias h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.noticias div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5px;
+    padding: 0px 20px 0px 20px;
+}
+
+.noticias2{
+    margin: 50px 50px 0px 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1 fr 1fr;
+    text-align: justify;
+    gap: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.noticias2 img{
+    width: 100%;
+    
+    border-radius: 5%;
+}
+.noticias2 article{
+    margin: 0px 10px;
+}
+.noticias2 h3{
+    font-size: 20px;
+}
+.h3{
+    font-size: 30px;
+    margin-top: 30px;
+    font-size: 35px;
+    padding: 10px 0px 10px 0px;;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+}
+.noticias3{
+    margin: 50px 50px 0px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.noticias3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.noticias3 iframe{
+    height: 200px;
+    width: 100%;
+}
+.noticias3 article{
+    margin: 0px 10px;
+}
+/*FOOTER*/
+#redes {
+    background-color: #333; 
+    color: white; 
+    padding: 20px 0px 10px; 
+}
+
+#redes ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#redes ul li {
+    margin: 0 10px;
+}
+
+#redes ul li a {
+    text-decoration: none;
+}
+
+#redes ul li img {
+    width: 40px; 
+    height: 40px; 
+}
+
+
+
+
+/******************CREAR-CUENTA.HTML-------INICIAR-SESION.HTML*****************************/
+.cuenta{
+    justify-content: center;
+    display: flex;
+    
+    /* position: absolute;
+    top:20px; */
+    
+    padding-left: 3%;
+    
+
+}
+.cuenta section{
+    border:5px solid black ;
+    border-radius: 15%;
+    padding: 3%;
+    margin: 10%;
+}
+#cuenta-div{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.cuenta h2{
+    text-decoration: underline;
+}
+
+
+
+/******************MISTERIO.HTML*****************************/
+.misterio p{
+    text-align: justify;
+    font-size: 21px;
+}
+.misterio h2{
+    font-size: 50px;
+    padding: 10px 0px 10px 0px;;
+    
+}
+.misterio{
+    padding: 0px 40px 0px 40px;
+    
+}
+.misterio img{
+    width: 100%;
+}
+.misterio iframe{
+    width: 50%;
+    height: 400px;
+}
+/******************SOBRE-NOSOTROS.HTML*****************************/
+#nosotros section p{
+    font-size: 21px;
+    text-align: justify;
+}
+#nosotros{
+    padding: 0px 40px 0px 40px;
+}
+#nosotros h2{
+    font-size: 50px;
+    padding: 10px 0px 10px 0px;;
+    
+}
+#nosotros h3{
+    font-size: 35px;
+    padding: 10px 0px 10px 0px;;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.JJJ{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+}
+.JJJ img{
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px 40px 30px;
+}
+
+.carousel{
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 900px;
+}
+
+
