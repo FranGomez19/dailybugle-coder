@@ -1,0 +1,524 @@
+
+.main{
+    padding: 10px 10px 10px 10px;
+    background-color: #EBE9E9;
+    h2{
+        font-size: 50px;
+        padding: 10px 0px 10px 0px;;
+        @include uyp{
+            font-size: 20px;
+        }
+    }
+    .noticias{
+        display: grid;
+        justify-content: space-around;
+        margin: 0px 100px 0px 100px;
+        @include qpwp{
+            height: 350px;
+            margin:0px 40px 0px 40px;
+        }
+        @include uyp{
+            height: 300px;
+        }
+        @include yyp{
+            height: 250px;
+        }
+        @include tip{
+            height: 200px;
+            margin-bottom: 40px;
+        }
+        @include rtp{
+            margin:0px 20px 0px 20px;
+        }
+        article{
+            border: 3px solid grey;
+            text-align: justify;
+            display: flex;
+            iframe{
+                width: 200%;
+                height: 60vh;
+                @include qpwp{
+                    height:100%;
+                }
+                @include tip{
+                    width: 70%;
+                }
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-left: 5px;
+                padding: 0px 20px 0px 20px;
+                @include yyp{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-left: 5px;
+                    padding: 0px 10px 0px 10px;
+                }
+                a{
+                    h3{
+                        margin-bottom: 30px;
+                        font-size: 30px;
+                        text-align: center;
+                        @include uyp{
+                            font-size: 25px;
+                            margin-bottom: 10px;
+                        }
+                        @include yyp{
+                            font-size: 17px;
+                        }
+                        @include tip{
+                            font-size: 15px;
+                        }
+                    }
+                }
+                p{
+                    @include uyp{
+                        font-size: 13px;
+                    }
+                    @include yyp{
+                        font-size: 10px;
+                    }
+                    @include tip{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .noticias2{
+        margin: 100px 50px 0px 50px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1 fr 1fr;
+        text-align: justify;
+        gap: 40px;
+        margin-right: 100px;
+        margin-left: 100px;
+        @include qpwp{
+            display: grid;
+            grid-template-rows: 300px 300px;
+            margin:70px 40px 0px 40px;
+        }
+        @include uyp{
+            display: grid;
+            grid-template-rows: 250px 250px;
+        }
+        @include yyp{
+            display: grid;
+            grid-template-rows: 200px 200px;
+            gap: 10px;
+        }
+        @include tip{
+            display: grid;
+            grid-template-rows: 180px 180px;
+        }
+        @include tqp{
+            display: grid;
+            grid-template-rows: 160px 160px;
+            margin:70px 20px 0px 20px;
+        }
+        @include rtp{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .noticias2-img1{
+            grid-column: span 2 ;
+            a{
+                text-decoration: none;
+                color: rgb(238, 248, 248);
+                img{
+                    border-radius: 5%;
+                }
+                div{
+                    h5{
+                        @include tip{
+                            font-size: 15px;
+                        }
+                    }
+                    .card-text{
+                        @include qpip{
+                            display: none;
+                        }
+                    }
+                    p{
+                        @include uyp{
+                            display:none;
+                        }
+                        small{
+
+                        }
+                    }
+                }
+            }
+        }
+        .noticias2-img2{
+            width: 100% !important;
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                img{
+                    border-radius: 5%;
+                }
+                div{
+                    h5{
+                        @include qpip{
+                            font-size: 15px;
+                        }
+                        @include uyp{
+                            font-size: 14px;
+                        }
+                        @include yyp{
+                            font-size: 12px;
+                        }
+                        @include tip{
+                            font-size: 10px;
+                        }
+                    }
+                    p{
+                        @include uyp{
+                            display:none;
+                        }
+                        small{
+
+                        }
+                    }
+                }
+            }
+        }
+        .noticias2-img3{
+            width: 100% !important;
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                img{
+                    border-radius: 5%;
+                }
+                div{
+                    h5{
+                        @include qpip{
+                            font-size: 15px;
+                        }
+                        @include uyp{
+                            font-size: 14px;
+                        }
+                        @include yyp{
+                            font-size: 12px;
+                        }
+                        @include tip{
+                            font-size: 10px;
+                        }
+                    }
+                    p{
+                        @include uyp{
+                            display:none;
+                        }
+                        small{
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .noticias2-img4{
+            grid-column: span 2 ;
+            a{
+                text-decoration: none;
+                color: rgb(238, 248, 248);
+                img{
+                    border-radius: 5%;
+                }
+                div{
+                    h5{
+                        @include tip{
+                            font-size: 15px;
+                        }
+                    }
+                    .card-text{
+                        @include qpip{
+                            display: none;
+                        }
+                    }
+                    p{
+                        @include uyp{
+                            display:none;
+                        }
+                        small{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .h3{
+        font-size: 30px;
+        margin-top: 30px;
+        font-size: 35px;
+        padding: 10px 0px 10px 0px;;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+    .noticias3{
+        margin: 50px 50px 0px 50px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        @include uyp{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px;
+        }
+        @include tip{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 50px 20px 0px 20px;
+        }
+        article{
+            margin: 0px 10px;
+            iframe{
+                height: 200px;
+                width: 100%;
+                @include qpip{
+                    height: 100%;
+                }
+            }
+        }
+        article{
+            margin: 0px 10px;
+            iframe{
+                height: 200px;
+                width: 100%;
+                @include qpip{
+                    height: 100%;
+                }
+            }
+        }
+        article{
+            margin: 0px 10px;
+            iframe{
+                height: 200px;
+                width: 100%;
+                @include qpip{
+                    height: 100%;
+                }
+            }
+        }
+        article{
+            margin: 0px 10px;
+            iframe{
+                height: 200px;
+                width: 100%;
+                @include qpip{
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+#redes{
+    background-color: #333; 
+    color: white; 
+    padding: 20px 0px 10px; 
+    div{
+        ul{
+            list-style-type: none; 
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            @include rtp{
+                margin-right: 15px;
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+            li{
+                margin: 0 10px;
+                @include rtp{
+                    margin: 0 10px;
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 40px; 
+                        height: 40px;
+                        @include rtp{
+                            width: 30px; 
+                            height: 30px; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@mixin qqtp {
+    @media screen and (max-width: 1150px) {
+        @content;
+    }
+}
+@mixin qpip {
+    @media screen and (max-width: 1080px) {
+        @content;
+    }
+}
+@mixin qpwp {
+    @media screen and (max-width: 1020px) {
+        @content;
+    }
+}
+@mixin qppp {
+    @media screen and (max-width: 1000px) {
+        @content;
+    }
+}
+@mixin itp {
+    @media screen and (max-width: 850px) {
+        @content;
+    }
+}
+@mixin uyp {
+    @media screen and (max-width: 760px) {
+        @content;
+    }
+}
+@mixin upp {
+    @media screen and (max-width: 700px) {
+        @content;
+    }
+}
+@mixin yyp {
+    @media screen and (max-width: 660px) {
+        @content;
+    }
+}
+@mixin ypp {
+    @media screen and (max-width: 600px) {
+        @content;
+    }
+}
+@mixin tip {
+    @media screen and (max-width: 580px) {
+        @content;
+    }
+}
+@mixin tep {
+    @media screen and (max-width: 530px) {
+        @content;
+    }
+}
+@mixin tqp {
+    @media screen and (max-width: 510px) {
+        @content;
+    }
+}
+@mixin rip {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
+@mixin rtp {
+    @media screen and (max-width: 450px) {
+        @content;
+    }
+}
+@mixin rep {
+    @media screen and (max-width: 430px) {
+        @content;
+    }
+}

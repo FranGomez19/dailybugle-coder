@@ -1,0 +1,27 @@
+.paginas-noticias{
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #EBE9E9;
+    h2{
+        font-size: 3rem;
+        
+    }
+    p{
+        text-align: justify;
+        font-size: 1rem;
+    }
+    img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    iframe{
+        width: 50%;
+        height: 400px;
+        @include qppp{
+            width: 100%;
+        }
+        @include rtp{
+            height: 250px;
+        }
+    }
+}
