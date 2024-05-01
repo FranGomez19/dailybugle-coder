@@ -375,6 +375,225 @@ header nav div a h1 img {
   }
 }
 
+#nosotros {
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #EBE9E9;
+}
+#nosotros section h2 {
+  font-size: 50px;
+  padding: 10px 0px 10px 0px;
+}
+#nosotros section .h3-nosotros {
+  font-size: 35px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+#nosotros section p {
+  text-align: justify;
+  font-size: 1rem;
+}
+#nosotros section .h3-nosotros {
+  font-size: 35px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+#nosotros section .JJJ {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+@media screen and (max-width: 480px) {
+  #nosotros section .JJJ {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 0px 30px 0px;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  #nosotros section .JJJ p {
+    font-size: 1rem;
+  }
+}
+#nosotros section .JJJ img {
+  width: 100%;
+  height: 100%;
+  padding: 20px 30px 40px 30px;
+}
+@media screen and (max-width: 1150px) {
+  #nosotros section .JJJ img {
+    width: 100%;
+    height: 400px;
+    padding: 20px 0px 40px 30px;
+  }
+}
+@media screen and (max-width: 850px) {
+  #nosotros section .JJJ img {
+    width: 100%;
+    height: 300px;
+    padding: 20px 0px 40px 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #nosotros section .JJJ img {
+    width: 100%;
+    height: 250px;
+    padding: 20px 0px 40px 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #nosotros section .JJJ img {
+    width: 100%;
+    height: 200px;
+    padding: 20px 0px 40px 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #nosotros section .JJJ img {
+    width: 100%;
+    height: 400px;
+    padding: 0px 0px 0px 0px;
+    order: 1;
+  }
+}
+
+section .h3-nosotros {
+  font-size: 35px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+section .carousel {
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 900px;
+}
+@media screen and (max-width: 1150px) {
+  section .carousel {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 680px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  section .carousel {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 850px) {
+  section .carousel {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 550px;
+  }
+}
+@media screen and (max-width: 700px) {
+  section .carousel {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 600px) {
+  section .carousel {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 540px;
+  }
+}
+@media screen and (max-width: 530px) {
+  section .carousel {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 480px) {
+  section .carousel {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 430px) {
+  section .carousel {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 370px;
+  }
+}
+.paginas-noticias {
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #EBE9E9;
+}
+.paginas-noticias h2 {
+  font-size: 3rem;
+}
+.paginas-noticias p {
+  text-align: justify;
+  font-size: 1rem;
+}
+.paginas-noticias img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.paginas-noticias iframe {
+  width: 50%;
+  height: 400px;
+}
+@media screen and (max-width: 1000px) {
+  .paginas-noticias iframe {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .paginas-noticias iframe {
+    height: 250px;
+  }
+}
+
+.cuenta {
+  justify-content: center;
+  display: flex;
+  padding-left: 3%;
+  background-color: #EBE9E9;
+}
+.cuenta section {
+  border: 5px solid black;
+  border-radius: 15%;
+  padding: 3%;
+  margin: 10%;
+}
+.cuenta section h2 {
+  text-decoration: underline;
+}
+.cuenta section #cuenta-div {
+  display: flex;
+  justify-content: space-between;
+}
+.cuenta section div input {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
 #redes {
   background-color: #333;
   color: white;
@@ -618,223 +837,4 @@ header nav div a h1 img {
     width: 30px;
     height: 30px;
   }
-}
-
-#nosotros {
-  padding-left: 7%;
-  padding-right: 7%;
-  background-color: #EBE9E9;
-}
-#nosotros section h2 {
-  font-size: 50px;
-  padding: 10px 0px 10px 0px;
-}
-#nosotros section .h3-nosotros {
-  font-size: 35px;
-  padding: 10px 0px 10px 0px;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-}
-#nosotros section p {
-  text-align: justify;
-  font-size: 1rem;
-}
-#nosotros section .h3-nosotros {
-  font-size: 35px;
-  padding: 10px 0px 10px 0px;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-}
-#nosotros section .JJJ {
-  display: grid;
-  grid-template-columns: 70% 30%;
-}
-@media screen and (max-width: 480px) {
-  #nosotros section .JJJ {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0px 0px 30px 0px;
-    height: 100%;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1150px) {
-  #nosotros section .JJJ p {
-    font-size: 1rem;
-  }
-}
-#nosotros section .JJJ img {
-  width: 100%;
-  height: 100%;
-  padding: 20px 30px 40px 30px;
-}
-@media screen and (max-width: 1150px) {
-  #nosotros section .JJJ img {
-    width: 100%;
-    height: 400px;
-    padding: 20px 0px 40px 30px;
-  }
-}
-@media screen and (max-width: 850px) {
-  #nosotros section .JJJ img {
-    width: 100%;
-    height: 300px;
-    padding: 20px 0px 40px 30px;
-  }
-}
-@media screen and (max-width: 700px) {
-  #nosotros section .JJJ img {
-    width: 100%;
-    height: 250px;
-    padding: 20px 0px 40px 30px;
-  }
-}
-@media screen and (max-width: 600px) {
-  #nosotros section .JJJ img {
-    width: 100%;
-    height: 200px;
-    padding: 20px 0px 40px 30px;
-  }
-}
-@media screen and (max-width: 480px) {
-  #nosotros section .JJJ img {
-    width: 100%;
-    height: 400px;
-    padding: 0px 0px 0px 0px;
-    order: 1;
-  }
-}
-
-section .h3-nosotros {
-  font-size: 35px;
-  padding: 10px 0px 10px 0px;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-}
-section .carousel {
-  width: 50%;
-  margin: 0 auto;
-  overflow: hidden;
-  height: 900px;
-}
-@media screen and (max-width: 1150px) {
-  section .carousel {
-    width: 50%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 680px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  section .carousel {
-    width: 50%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 600px;
-  }
-}
-@media screen and (max-width: 850px) {
-  section .carousel {
-    width: 50%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 550px;
-  }
-}
-@media screen and (max-width: 700px) {
-  section .carousel {
-    width: 50%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 450px;
-  }
-}
-@media screen and (max-width: 600px) {
-  section .carousel {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 540px;
-  }
-}
-@media screen and (max-width: 530px) {
-  section .carousel {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 480px;
-  }
-}
-@media screen and (max-width: 480px) {
-  section .carousel {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 400px;
-  }
-}
-@media screen and (max-width: 430px) {
-  section .carousel {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 370px;
-  }
-}
-.paginas-noticias {
-  padding-left: 7%;
-  padding-right: 7%;
-  background-color: #EBE9E9;
-}
-.paginas-noticias h2 {
-  font-size: 3rem;
-}
-.paginas-noticias p {
-  text-align: justify;
-  font-size: 1rem;
-}
-.paginas-noticias img {
-  width: 100%;
-  margin-bottom: 20px;
-}
-.paginas-noticias iframe {
-  width: 50%;
-  height: 400px;
-}
-@media screen and (max-width: 1000px) {
-  .paginas-noticias iframe {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 450px) {
-  .paginas-noticias iframe {
-    height: 250px;
-  }
-}
-
-.cuenta {
-  justify-content: center;
-  display: flex;
-  padding-left: 3%;
-  background-color: #EBE9E9;
-}
-.cuenta section {
-  border: 5px solid black;
-  border-radius: 15%;
-  padding: 3%;
-  margin: 10%;
-}
-.cuenta section h2 {
-  text-decoration: underline;
-}
-.cuenta section #cuenta-div {
-  display: flex;
-  justify-content: space-between;
-}
-.cuenta section div input {
-  height: 30px;
-  width: 200px;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10px;
 }/*# sourceMappingURL=estilos.css.map */
