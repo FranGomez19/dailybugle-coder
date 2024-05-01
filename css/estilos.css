@@ -629,7 +629,7 @@ header nav div a h1 img {
   font-size: 50px;
   padding: 10px 0px 10px 0px;
 }
-#nosotros section h3 {
+#nosotros section .h3-nosotros {
   font-size: 35px;
   padding: 10px 0px 10px 0px;
   border-bottom: 2px solid black;
@@ -639,7 +639,7 @@ header nav div a h1 img {
   text-align: justify;
   font-size: 1rem;
 }
-#nosotros section h3 {
+#nosotros section .h3-nosotros {
   font-size: 35px;
   padding: 10px 0px 10px 0px;
   border-bottom: 2px solid black;
@@ -705,7 +705,7 @@ header nav div a h1 img {
   }
 }
 
-section h3 {
+section .h3-nosotros {
   font-size: 35px;
   padding: 10px 0px 10px 0px;
   border-bottom: 2px solid black;
