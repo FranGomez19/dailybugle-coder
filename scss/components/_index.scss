@@ -1,7 +1,7 @@
 
 .main{
     padding: 10px 10px 10px 10px;
-    background-color: #EBE9E9;
+    background-color: $color-principal;
     h2{
         font-size: 50px;
         padding: 10px 0px 10px 0px;;
@@ -128,7 +128,7 @@
             grid-column: span 2 ;
             a{
                 text-decoration: none;
-                color: rgb(238, 248, 248);
+                color: nth($colores, 1);
                 img{
                     border-radius: 5%;
                 }
@@ -158,7 +158,7 @@
             width: 100% !important;
             a{
                 text-decoration: none;
-                color: rgb(0, 0, 0);
+                color: nth($colores, 2);
                 img{
                     border-radius: 5%;
                 }
@@ -192,7 +192,7 @@
             width: 100% !important;
             a{
                 text-decoration: none;
-                color: rgb(0, 0, 0);
+                color: nth($colores, 2);
                 img{
                     border-radius: 5%;
                 }
@@ -226,7 +226,7 @@
             grid-column: span 2 ;
             a{
                 text-decoration: none;
-                color: rgb(238, 248, 248);
+                color: nth($colores, 1);
                 img{
                     border-radius: 5%;
                 }
@@ -262,11 +262,7 @@
         border-top: 2px solid black;
     }
     .noticias3{
-        margin: 50px 50px 0px 50px;
-        justify-content: center;
-        align-items: center;
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
+        @extend %noticias3;
         @include uyp{
             display: grid;
             grid-template-columns: 1fr 1fr;
