@@ -44,20 +44,27 @@
                     width: 70%;
                 }
             }
-            div{
+            a{
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 margin-left: 5px;
                 padding: 0px 20px 0px 20px;
-                @include yyp{
+                align-items: center;
+                div{
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
                     margin-left: 5px;
-                    padding: 0px 10px 0px 10px;
-                }
-                a{
+                    padding: 0px 20px 0px 20px;
+                    @include yyp{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        margin-left: 5px;
+                        padding: 0px 10px 0px 10px;
+                    }
+                
                     h3{
                         margin-bottom: 30px;
                         font-size: 30px;
@@ -73,16 +80,17 @@
                             font-size: 15px;
                         }
                     }
-                }
-                p{
-                    @include uyp{
-                        font-size: 13px;
-                    }
-                    @include yyp{
-                        font-size: 10px;
-                    }
-                    @include tip{
-                        display: none;
+                
+                    p{
+                        @include uyp{
+                            font-size: 13px;
+                        }
+                        @include yyp{
+                            font-size: 10px;
+                        }
+                        @include tip{
+                            display: none;
+                        }
                     }
                 }
             }
